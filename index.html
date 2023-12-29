@@ -6,6 +6,7 @@
 </head>
 <body>
 <script>
+  document.write("hello world") 
 fetch("https://daysonserverr.onrender.com/", {
   method: "GET",
 headers: {
@@ -13,7 +14,7 @@ headers: {
   }
 })
   .then((response) => response.json())
-  .then((json) => alert(JSON.stringify(json)));
+  .then((json) => alert(JSON.stringify(json))).catch((err) => alert(err));
 </script>  
 </body>
 </html>
