@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Page title</title>
+</head>
+<body>
+<script>
+fetch("https://daysonserver.onrender.com/", {
+  method: "GET",
+headers: {
+    "Content-type": "application/json; charset=UTF-8"
+  }
+})
+  .then((response) => response.json())
+  .then((json) => alert(JSON.stringify(json)));
+</script>  
+</body>
+</html>
