@@ -20,7 +20,7 @@ const q_o_a =[{ "q": "Who invented computer?", "a": "Alan Turing", "b": "Elon Mu
 
   { "q": "Who is the founder of this Quiz?", "a": "Joel greyhat", "b": "Sodiq Tunde", "c": "Ohwi Daniel", "d": "Lamina Timilehin", "ans": "b" }];
 // Middleware
-app.post('https://daysonserver.onrender.com', (req, res) => {
+app.post('https://daysonserverr.onrender.com', (req, res) => {
     
     // Process the data or perform any backend tasks
     // ...
